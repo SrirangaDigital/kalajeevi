@@ -1,0 +1,105 @@
+.kannada{
+  font-family: 'shreelipi', sans-serif !important;
+}
+
+.english{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.english>p{
+font-size: 16px;
+  line-height: 24px;
+}
+
+body{
+  font-family: 'shreelipi', sans-serif !important;
+  color: #111;
+  line-height: 32px;
+  font-size: 24px;
+}  
+
+.mainpage{
+  margin-top: 90px;
+}
+
+.mainpage,h4{
+  font-size: 30px;
+  line-height: 38px;
+}
+.mainpage, p{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.award-page{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.contact-page{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.jumbotron {
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #f7f7f7 !important;
+  border-radius: .3rem
+}
+
+
+.mainpage h1{
+  font-family: 'shreelipi', sans-serif !important;
+  line-height: 32px;
+  font-size: 36px;
+}
+
+.aboutpage{
+   margin-top: 120px;
+   margin-bottom: 90px;
+   font-family: 'Raleway', sans-serif !important;
+}
+
+.contact{
+  margin-top: 120px;
+   margin-bottom: 90px;
+}
+
+
+/*.aboutpage, p{
+  font-size: 18px;
+  line-height: 22px;
+}*/
+
+
+.img-kgs{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+footer{
+  padding: 1rem;
+  margin-top: 1em;
+  color: #eee;
+  background-color: #343a40 !important;
+}
+
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.img-left{
+  float: left;
+  width: 50%;
+}
+
+.img-right{
+  float: right;
+  width: 50%;
+}
