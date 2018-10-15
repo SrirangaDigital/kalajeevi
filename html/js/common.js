@@ -65,46 +65,6 @@ $(document).ready(function() {
 
 // Masonry layout
 
-jQuery(window).load(function () {
-
-
-
-    // Takes the gutter width from the bottom margin of .post
-
-    var gutter = parseInt(jQuery('.post').css('marginBottom'));
-    var container = jQuery('#posts');
-
-    // Creates an instance of Masonry on #posts
-	if(container.length > 0){
-		
-		container.masonry({
-			gutter: gutter,
-			itemSelector: '.post',
-			columnWidth: '.post'
-		});
-    }
-    
-    // This code fires every time a user resizes the screen and only affects .post elements
-    // whose parent class isn't .container. Triggers resize first so nothing looks weird.
-    
-    jQuery(window).bind('resize', buildMasonry()).trigger('resize');
-
-    if(document.getElementById('viewletterimages')){
-        
-        var viewer = new Viewer(document.getElementById('viewletterimages'), {url: 'data-original'});
-    }
-
-    if(document.getElementById('viewCardImages')){
-        
-        var viewer = new Viewer(document.getElementById('viewCardImages'), {url: 'data-original'});
-    }
-
-    if(document.getElementById('transcribeimages')){
-        
-        var viewer = new Viewer(document.getElementById('transcribeimages'), {url: 'data-original', inline: true, minHeight: $( window ).height()});
-    }
-});
-
 function buildMasonry(){
 
     var gutter = parseInt(jQuery('.post').css('marginBottom'));

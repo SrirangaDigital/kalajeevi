@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/viewer.css">
+
+</head>
+<body>
+		<div id="sketchimages">
+            <img data-original="gallery/main/001.jpg" src="gallery/thumb/sketch_001.jpg" alt="">
+            <img data-original="gallery/main/002.jpg" src="gallery/thumb/sketch_002.jpg" alt="">
+            <img data-original="gallery/main/003.jpg" src="gallery/thumb/sketch_003.jpg" alt="">
+            <img data-original="gallery/main/004.jpg" src="gallery/thumb/004.jpg" alt="">
+            <img data-original="gallery/main/005.jpg" src="gallery/thumb/005.jpg" alt="">
+            <img data-original="gallery/main/006.jpg" src="gallery/thumb/006.jpg" alt="">
+            <img data-original="gallery/main/007.jpg" src="gallery/thumb/007.jpg" alt="">
+            <img data-original="gallery/main/008.jpg" src="gallery/thumb/sketch_008.jpg" alt="">
+            <img data-original="gallery/main/009.jpg" src="gallery/thumb/sketch_009.jpg" alt="">
+            <img data-original="gallery/main/010.jpg" src="gallery/thumb/sketch_010.jpg" alt="">
+            <img data-original="gallery/main/011.jpg" src="gallery/thumb/sketch_011.jpg" alt="">
+            <img data-original="gallery/main/012.jpg" src="gallery/thumb/sketch_012.jpg" alt="">
+   </div>
+
+
+
+  <!-- Scripts -->
+  <script>
+jQuery(window).load(function () {
+  var vieweroptions = {
+        // inline: true,
+        url: 'data-original',
+        ready:  function (e) {
+          console.log(e.type);
+        },
+        show:  function (e) {
+          console.log(e.type);
+        },
+        shown:  function (e) {
+          console.log(e.type);
+        },
+        hide:  function (e) {
+          console.log(e.type);
+        },
+        hidden:  function (e) {
+          console.log(e.type);
+        },
+        view:  function (e) {
+          console.log(e.type, e.detail.index);
+        },
+        viewed:  function (e) {
+          console.log(e.type, e.detail.index);
+          // this.viewer.zoomTo(1).rotateTo(180);
+        }
+      };
+
+    var viewer = new Viewer(document.getElementById('sketchimages'),vieweroptions);
+});
+</script>
+<script src="js/viewer.js"></script>
+</body>
+</html>

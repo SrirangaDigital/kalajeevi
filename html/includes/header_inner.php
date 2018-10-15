@@ -7,10 +7,13 @@
   <meta content="A pure vanilla JS calendar by @chrisssycollins" name="description">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="js/viewer.js"></script>
   <link rel="stylesheet" type="text/css" href="css/custom.css">
+   <link rel="stylesheet" href="css/viewer.css">
   <link rel="stylesheet" type="text/css" href="css/fonts.css">
   <link rel="stylesheet" type="text/css" href="css/navbar.css">
   <script type="text/javascript" src="js/common.js"></script>
@@ -25,7 +28,7 @@
           <li><a href="../index.php#001">ಮುಖಪುಟ</a></li>
           <li><a href="../index.php#002">ಕೃತಿಗಳು</a></li>
           <li><a href="award.php">ಪ್ರಶಸ್ತಿಗಳು</a></li>
-          <li><a href="#">ಗ್ಯಾಲರಿ</a></li>
+          <li><a href="gallery.php">ಗ್ಯಾಲರಿ</a></li>
           <li><a href="../index.php#004">ಸಂಪರ್ಕಿಸಿ</a></li>
         </ul>
       </div>
