@@ -143,7 +143,7 @@ include ('html/includes/header.php');
   <h2>ಡಾ| ಜಿ.ವಿ.ಕುಲಕರ್ಣಿಯವರ ಕೃತಿ ಪರಿಚಯ</h2>
   <br>
   <!-- Nav tabs -->
-  <ul class="nav nav-tabs kannada" role="tablist">
+  <ul class="nav nav-tabs kannada about-tabs" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" data-toggle="tab" href="#home">ಕಾವ್ಯ</a>
     </li>
@@ -183,7 +183,7 @@ include ('html/includes/header.php');
   </ul>
 
   <!-- Tab panes -->
-  <div class="tab-content">
+  <div class="tab-content about-tabs">
     <div id="home" class="container tab-pane active"><br>
       <h3 class="p-3 kannada">ಕಾವ್ಯ</h3>
       <div class="row">
@@ -273,7 +273,7 @@ include ('html/includes/header.php');
     <p>೨೦೦೫ ನನ್ನ ನಲ್ಲ | My Beloved (ಕವಿ-ಅನುಭಾವಿ ಮಧುರಚೆನ್ನರ “ನನ್ನ ನಲ್ಲ” ಕಾವ್ಯದ ಪದ್ಯರೂಪದಲ್ಲಿ ಇಂಗ್ಲಿಷ್ ಅನುವಾದ, ಮೂಲ ಕನ್ನಡದ ಜೊತೆ ಇಂಗ್ಲಿಷ್ ಅನುವಾದ ಇರುವುದು ಇದರ ವೈಶಿಷ್ಟ್ಯ. (ಹರ್ಷವರ್ಧನ ಪ್ರಕಾಶನ, ಮುಂಬಯಿ-೯೨)</p>
   </div>
   <div id="menu9" class="container tab-pane fade"><br>
-    <h3 class="p-3 kannada">ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ</h3>
+    <h3 class="p-3 english">ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ</h3>
     <p>2002 YOGA SHIBIRA (Harshavardhana Prakashana, Mumbai-400 092)</p>
     <p>2016 SRI AUROBINDO'S INFLUENCE ON THE WRITINGS OF VINAYAK KRISHNA GOKAK (Publisher: Dept. of Kannada, University of Mumbai-98)</p>
   </div>
