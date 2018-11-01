@@ -132,7 +132,7 @@ include ('html/includes/header.php');
       </div>
       <div class="col-md-8 p-3 english">
         <h3>G. V. Kulkarni</h3>
-        <p>Prof. G.V. Kulkarni (popularly known as Jeevi) is a retired professor of English and a poet-critic-columnist in Kannada. He lives in Mumbai and has 25 works to his credit including seven collections of poetry. He is a columnist for "Karnataka Malla" (a popular Kannada daily in Mumbai) for the last two decades, Including the present work, he has written four critical works on Bendre.</p>
+        <p>Prof. G.V. Kulkarni (popularly known as Jeevi) is a retired professor of Kannada and a poet-critic-columnist in Kannada. He lives in Mumbai and has 25 works to his credit including seven collections of poetry. He is a columnist for "Karnataka Malla" (a popular Kannada daily in Mumbai) for the last two decades, Including the present work, he has written four critical works on Bendre.</p>
         <p>The recent work, Mangala Lokadalli, has 12 chapters, divided into four parts. He analyses in the first part a few poems of Bendre, which have been adversely reviewed and read till now; and the second part contains a long comparative essay on the theme of `Love' in Bendre and K.S. Narasimhaswamy. The third part contains a discussion of 63 poems by Bendre, called `maitriyoga' (`the fortune of friendship'). The last part contains Jeevi's comments on two long articles on Bendre, written by his admirer K.S. Sharma and son, Vamana Bendre.</p>
         <p class="see-more text-right"><a href="html/about.php">Read More...</a></p>
       </div>
